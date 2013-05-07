@@ -78,7 +78,7 @@ h1#site-name {
 }
 
 #menu-bar {
-	background: url("images/lay_hdr_nav.png") no-repeat scroll 0 0 #F5F5F5;
+	background: url("images/lay_hdr_nav.png") no-repeat scroll center 0 #F5F5F5;
 }
 
 /** breadcrumb **/
