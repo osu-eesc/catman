@@ -33,23 +33,23 @@ function adaptivetheme_subtheme_preprocess_html(&$vars) {
 /**
  * Override or insert variables for the html template.
  */
-/* -- Delete this line if you want to use this function
-function catman_preprocess_html(&$vars) {
-}
-function catman_process_html(&$vars) {
-}
-// */
+
+// function catman_process_html(&$vars) {
+
+// }
+
 
 
 /**
  * Override or insert variables for the page templates.
  */
-/* -- Delete this line if you want to use these functions
-function catman_preprocess_page(&$vars) {
-}
-function catman_process_page(&$vars) {
-}
-// */
+
+// function catman_preprocess_page(&$vars) {
+// 	$vars['osu_tag'] = '<div id="osu-top-hat">
+//   <a title="Link to OSU homepage" href="http://oregonstate.edu/"><img class="tag" width="101px" height="119px" title="OSU homepage" alt="Oregon State University" src="/catalog/sites/all/themes/catman/images/lay_hdr_tag.gif"></a>
+// 	</div>';
+// }
+
 
 
 /**

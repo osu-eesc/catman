@@ -34,10 +34,10 @@
           <?php if ($site_logo || $site_name || $site_slogan): ?>
 
             <div id="osu-top-hat">
-  <a title="Link to OSU homepage" href="http://oregonstate.edu/">
-    <img class="tag" width="101px" height="119px" alt="Oregon State University" src="/catalog/sites/all/themes/catman/images/lay_hdr_tag.gif">
-  </a>
-</div>
+              <a title="Link to OSU homepage" href="http://oregonstate.edu/">
+                <img class="tag" width="101px" height="119px" alt="Oregon State University" src="/catalog/sites/all/themes/catman/images/lay_hdr_tag.gif" />
+              </a>
+            </div>
 
             <!-- start: Branding -->
             <div id="branding" class="branding-elements clearfix<?php print $branding_classes ? ' ' . $branding_classes : ''; ?>">

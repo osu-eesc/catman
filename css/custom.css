@@ -81,6 +81,15 @@ h1#site-name {
 	background: url("images/lay_hdr_nav.png") no-repeat scroll 0 0 #F5F5F5;
 }
 
+/** breadcrumb **/
+#breadcrumb {
+	margin-bottom: 0;
+}
+
+#breadcrumb h2 {
+	display: none;
+}
+
 /******** content ***********/
 #content-wrapper .container,
 #footer-wrapper {
@@ -112,4 +121,45 @@ div#page {
 h3.views-field-title {
 	font-size: 1.125em;
 	line-height: 1.25;
+}
+
+
+/******** sidebars ***********/
+/*.region-sidebar-second .views-row-last {
+	margin-bottom: 2.0em;
+}
+
+.region-sidebar-second section {
+    background: url("images/lay_ilr_horr.gif") no-repeat scroll left bottom transparent;
+}*/
+
+.region-sidebar-second .block-views .item-list ul li {
+	list-style-image: url("images/arrow-double.png");
+}
+
+div#block-search-form {
+	margin-bottom: 0;
+}
+
+#boxes-box-cart_checkout_buttons {
+	float: right;
+	clear: both;
+	margin-bottom: 0;
+}
+
+
+/******** commerce stuff - move to appropriate module ***********/
+
+.field-type-commerce-price {
+	font-size: 1.125em;
+}  
+
+input#edit-checkout, 
+input#edit-continue {
+	font-size: 1.0em;
+}
+
+input#edit-submit[value*="Update cart"], 
+input#edit-cancel {
+	font-size: 1.0em;
 }
