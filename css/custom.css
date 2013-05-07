@@ -1,0 +1,115 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ */
+
+
+html {
+	background: url("images/lay_bg_stripe.gif") repeat scroll 0 0 #F5F5F5;
+}
+
+/******** header ***********/
+#header-top-wrapper {
+	background: #000000;
+	border-bottom: 4px solid #84949F;
+	max-height: 40px;
+}
+
+
+/******** header ***********/
+#header-wrapper {
+	background: transparent;
+	border-bottom: none;
+}
+
+#header-wrapper header {
+	margin: 0;
+}
+
+#header-wrapper .container {
+	background: url("images/lay_hdr_main.gif") no-repeat scroll 0 0 #E5E5E5;
+	border-left: 2px solid #ABABAB;
+	border-right: 2px solid #ABABAB;
+}
+
+.hl-l #logo {
+	margin-left: 160px;
+}
+
+ #osu-top-hat  {
+	top: 0;
+	position: absolute;
+}
+
+ #osu-top-hat img.tag {
+	left: 32px;
+	top: 0;
+	position: relative;	
+	z-index: 899;
+}
+
+#branding {
+	margin: 0;
+}
+
+img.site-logo {
+	width: 80%;
+}
+
+/*#site-name a {
+	color: #E1E1E1;
+}*/
+
+h1#site-name {
+	padding-top: 1.5em;
+}
+
+
+
+
+/******** menu ***********/
+
+#menu-wrapper {
+	box-shadow: none;
+	min-height: 2.5em;
+	top: 0;
+}
+
+#menu-bar {
+	background: url("images/lay_hdr_nav.png") no-repeat scroll 0 0 #F5F5F5;
+}
+
+/******** content ***********/
+#content-wrapper .container,
+#footer-wrapper {
+	background: #F5F5F5;
+	border-left: 2px solid #ABABAB;
+	border-right: 2px solid #ABABAB;
+}
+
+#content-wrapper {
+	/*border-bottom: 1px solid #D5D5D5;*/
+	border-left: 2px solid #999;
+	border-right: 2px solid #999;
+  border-top: none;
+}
+
+div#page {
+	background-color: transparent;
+}
+
+#content-wrapper.no-secondary {
+    padding-top: 0;
+}
+
+#columns {
+	padding-top: 2.000em;
+	padding-left: 1em;
+}
+
+h3.views-field-title {
+	font-size: 1.125em;
+	line-height: 1.25;
+}
