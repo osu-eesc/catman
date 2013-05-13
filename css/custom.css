@@ -73,13 +73,19 @@ h1#site-name {
 
 #menu-wrapper {
 	box-shadow: none;
-	min-height: 2.5em;
+	/*min-height: 2.5em;*/
 	top: 0;
 }
 
 #menu-bar {
 	background: url("images/lay_hdr_nav.png") no-repeat scroll center 0 #F5F5F5;
 }
+
+.nav .block-menu ul a,
+.nav .block-menu ul a:active {
+	padding: 4px 1em 0.75em;
+}
+
 
 /** breadcrumb **/
 #breadcrumb {
@@ -88,6 +94,10 @@ h1#site-name {
 
 #breadcrumb h2 {
 	display: none;
+}
+
+div.messages {
+	margin-top: 0;
 }
 
 /******** content ***********/
@@ -113,6 +123,13 @@ div#page {
     padding-top: 0;
 }
 
+#content-wrapper .container {
+	background-attachment: inherit;
+	background-image: url("images/lay_ilr_vertr.png");
+	background-position: 75% 0;
+	background-repeat: repeat-y;
+}
+
 #columns {
 	padding-top: 2.000em;
 	padding-left: 1em;
@@ -125,13 +142,15 @@ h3.views-field-title {
 
 
 /******** sidebars ***********/
-/*.region-sidebar-second .views-row-last {
+.region-sidebar-second .views-row-last {
 	margin-bottom: 2.0em;
 }
 
 .region-sidebar-second section {
-    background: url("images/lay_ilr_horr.gif") no-repeat scroll left bottom transparent;
-}*/
+	background: url("images/lay_ilr_horr.gif") no-repeat scroll left bottom transparent;
+	margin-left: -14px;
+	padding-left: 10px;
+}
 
 .region-sidebar-second .block-views .item-list ul li {
 	list-style-image: url("images/arrow-double.png");
@@ -146,6 +165,7 @@ div#block-search-form {
 	clear: both;
 	margin-bottom: 0;
 }
+
 
 
 /******** commerce stuff - move to appropriate module ***********/
