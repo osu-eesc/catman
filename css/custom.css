@@ -38,7 +38,11 @@ html {
 	margin-left: 160px;
 }
 
- #osu-top-hat  {
+#name-and-slogan {
+	min-height: 92px;
+}
+
+#osu-top-hat  {
 	top: 0;
 	position: absolute;
 }
@@ -63,7 +67,7 @@ img.site-logo {
 }*/
 
 h1#site-name {
-	padding-top: 1.5em;
+	padding-top: 1.0em;
 	padding-left: 160px;
 }
 
