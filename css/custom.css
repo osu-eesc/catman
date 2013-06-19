@@ -86,6 +86,10 @@ h1#site-name {
 	background: url("images/lay_hdr_nav.png") no-repeat scroll center 0 #F5F5F5;
 }
 
+#menu-bar .block {
+	text-transform: none;
+}
+
 .nav .block-menu ul a,
 .nav .block-menu ul a:active {
 	padding: 4px 1em 0.75em;
