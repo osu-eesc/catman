@@ -175,6 +175,15 @@ div#block-search-form {
 	margin-bottom: 0;
 }
 
+/******** forms ***********/
+.form-textarea-wrapper textarea {
+	font-size: 100%;
+}
+
+div#block-search-form{
+  float:right;
+  /*width:360px;*/
+}
 
 
 /******** commerce stuff - move to appropriate module ***********/
